@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url(../imagens/john-towner-JgOeRuGD_Y4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   gap: 106px;
+   margin-top: 10px;
+}
+
+.header a{
+    font-family: "Kode mono";
+    color: #f8f6f4dc;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.header a:hover{
+    text-shadow: 0 0 5px #ff4500;
+    transition: 0.2s ease-in-out;
+    text-decoration: underline;
+    display: inline-block;
+    transform: scale(1.5);
+    transition: .2s;
+}
+
+
+
+.header li{
+    list-style: none;
+}
+
+main{
+   color: white;
+   text-shadow: 0 0 6px orangered;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+h1{
+    font-size: 35px;
+    font-family: "Kode mono";
+    margin-bottom: 15px;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 68, 0, 0.377);
+    padding-bottom: 20px;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    gap: 32px;
+    margin-top: 10px;
+    font-size: 35px;
+       
+}
+
+.redes a {
+   color: rgba(226, 110, 65, 0.747);
+}
+
+.redes a:hover{
+    text-shadow: 0 0 5px #ff4500;
+    transition: 0.2s ease-in-out;
+    text-decoration: underline;
+    display: inline-block;
+    transform: scale(1.5);
+    transition: .2s;
+}
